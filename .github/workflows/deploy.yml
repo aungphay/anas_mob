@@ -18,4 +18,4 @@ jobs:
       run: docker image build . -t "${{ secrets.DOCKER_HUB_USERNAME }}"/mltb:movies
 
     - name: Pushing docker to docker.io
-      run: docker push "${{ secrets.DOCKER_HUB_USERNAME }}"/mltb:movieies
+      run: docker push "${{ secrets.DOCKER_HUB_USERNAME }}"/mltb:movies
